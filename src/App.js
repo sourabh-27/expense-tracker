@@ -31,6 +31,7 @@ function App() {
 
   return (
     <div>
+      <h1 style={{textAlign: "center"}}>EXPENSE TRACKER</h1>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses expenses={expenses} />
     </div>
